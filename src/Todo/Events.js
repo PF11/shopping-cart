@@ -18,9 +18,9 @@ handleIncrement = () => {
         return ( 
         <div>
             <p>There have been {this.state.eventCount} events</p>
-            <p><button onClick={this.handleIncrement}>*</button></p>
+            <p><button onClick={this.handleIncrement}>Add</button></p>
             <p>You typed: {this.state.username}</p>
-            <p><input onChange={This.handleUpdateUsername}/></p>
+            <p><input onChange={this.handleUpdateUsername}/></p>
             </div> );
     }
 }

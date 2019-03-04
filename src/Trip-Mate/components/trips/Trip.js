@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export const Trip = ({data, place, type}) => (
+export const Trip = ({date, place, type}) => (
     <tr>
         <td>{date}</td>
         <td>{place}</td>

@@ -1,13 +1,14 @@
 import React, { PureComponent } from "react";
 import PropTypes from "prop-types";
 import Clipboard from 'clipboard';
+import EmojiResultRow from './EmojiResultRow';
 
 class EmojiResults extends PureComponent {
   componentDidMount() {
     this.clipboard = new Clipboard(".copy-to-clipboard");
   }
 
-  componentWillMount() {
+  componentWillUnMount() {
     this.clipboard.destroy();
   }
 

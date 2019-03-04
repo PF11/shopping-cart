@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SearchInput from './SearchInput';
-import EmojiResults from '.TodoList/EmojiResults';
-import FilterEmoji from './TodoList/FilterEmoji';
+import EmojiResults from './EmojiResults';
+import filterEmoji from './FilterEmoji';
 import Headerr from './Header';
 
 
@@ -9,12 +9,12 @@ class FirstEmo extends Component {
    constructor(props){
        super(props);
        this.state = {
-           filteredEmoji: FilterEmoji("", 20)
+           filteredEmoji: filterEmoji("", 20)
        };
    }
    handelSearchChange =(e) => {
        this.setState({
-           filteredEmoji: FilterEmoji(e.target.value, 20)
+           filteredEmoji: filterEmoji(e.target.value, 20)
        })
    }
     render() { 

@@ -1,0 +1,17 @@
+[
+    {
+        "id" : 1,
+        "title": "Inception",
+        "description": "Science"
+    },
+    {
+        "id" : 2,
+        "title": "Me Before You",
+        "description": "Drama"
+    },
+    {
+        "id" : 3,
+        "title": "Frozen",
+        "description": "Animation"
+    }
+]
